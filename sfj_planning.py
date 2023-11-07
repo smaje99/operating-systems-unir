@@ -26,7 +26,6 @@ class Process:
     turnaround_time: int = 0
 
     def __str__(self):
-        """Devuelve una representación en cadena del proceso en español."""
         return (
             f"Proceso {self.name}: "
             + f"Llegada={self.arrival_time}, "
